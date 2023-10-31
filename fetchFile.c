@@ -1,4 +1,4 @@
-int fileFetchPrint(int){
+void fileFetchPrint(const char *fileName){
 FILE *fp;
   //open a file in read mode;
 fp = fopen("test.txt", "r");
