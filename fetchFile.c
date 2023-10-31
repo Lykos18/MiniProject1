@@ -1,3 +1,5 @@
+#include <stdio.h>
+
 void fileFetchPrint(const char *fileName){
 FILE *fp;
   //open a file in read mode;
